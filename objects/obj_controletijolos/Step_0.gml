@@ -1,3 +1,8 @@
+if instance_exists(obj_pauser)
+{
+	exit
+}
+
 if ativado and room == Level_obra
 {
 	timer -- 

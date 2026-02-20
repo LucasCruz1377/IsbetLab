@@ -1,9 +1,9 @@
 {
   "$GMObject":"",
-  "%Name":"obj_chao",
+  "%Name":"obj_pauser",
   "eventList":[],
   "managed":true,
-  "name":"obj_chao",
+  "name":"obj_pauser",
   "overriddenProperties":[],
   "parent":{
     "name":"Objetos",
@@ -27,10 +27,7 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":{
-    "name":"spr_chao",
-    "path":"sprites/spr_chao/spr_chao.yy",
-  },
+  "spriteId":null,
   "spriteMaskId":null,
   "visible":true,
 }
