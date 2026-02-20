@@ -1,4 +1,4 @@
-if ativado and room == Room1
+if ativado and room == Level_obra
 {
 	timer -- 
 }

@@ -36,11 +36,13 @@
   "name":"EPI C",
   "resources":[
     {"id":{"name":"obj_chao","path":"objects/obj_chao/obj_chao.yy",},},
+    {"id":{"name":"obj_controle_pontos","path":"objects/obj_controle_pontos/obj_controle_pontos.yy",},},
     {"id":{"name":"obj_controletijolos","path":"objects/obj_controletijolos/obj_controletijolos.yy",},},
     {"id":{"name":"obj_debug","path":"objects/obj_debug/obj_debug.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tijolo","path":"objects/obj_tijolo/obj_tijolo.yy",},},
-    {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"id":{"name":"Level_obra","path":"rooms/Level_obra/Level_obra.yy",},},
+    {"id":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
     {"id":{"name":"spr_backgroundprovisorio","path":"sprites/spr_backgroundprovisorio/spr_backgroundprovisorio.yy",},},
     {"id":{"name":"spr_chao","path":"sprites/spr_chao/spr_chao.yy",},},
     {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
@@ -51,7 +53,8 @@
   "resourceType":"GMProject",
   "resourceVersion":"2.0",
   "RoomOrderNodes":[
-    {"roomId":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
+    {"roomId":{"name":"Level_obra","path":"rooms/Level_obra/Level_obra.yy",},},
+    {"roomId":{"name":"Level_Select","path":"rooms/Level_Select/Level_Select.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
