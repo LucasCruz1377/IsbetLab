@@ -9,8 +9,8 @@
   "name":"obj_personagem_escolha",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"UI_UIX",
+    "path":"folders/Objetos/UI_UIX.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -7,7 +7,7 @@ hp_max = 3
 hp = hp_max
 invencivel = false
 
-blink_time = 5; // 0.2 segundos se o jogo roda a 60 FPS
+blink_time = 5; 
 blink_timer = blink_time;
 
 data = new masc()

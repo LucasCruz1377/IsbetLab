@@ -10,8 +10,8 @@
   "name":"obj_debug",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"ferramentas_objetoscontrole",
+    "path":"folders/Objetos/ferramentas_objetoscontrole.yy",
   },
   "parentObjectId":null,
   "persistent":true,
