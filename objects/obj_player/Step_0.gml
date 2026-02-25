@@ -7,7 +7,7 @@ if invencivel
 {
     image_alpha = abs(sin(current_time/50))
 }
-else if hp <= 0 
+else if hp == 0 
 {
 	image_alpha = 0
 }
