@@ -6,12 +6,7 @@ jumpspd = - 5
 hp_max = 3
 hp = hp_max
 invencivel = false
-
-blink_time = 5; 
-blink_timer = blink_time;
-
 data = new masc()
-
 switch global.genero
 {
 	case 0:
@@ -19,27 +14,21 @@ switch global.genero
 		data = new masc()
 		break
 	}
-	
 	case 1:
 	{
 		data = new fem()
 		break
 	}
 }
-
 	sprite_index = data.idle
-
-
 function player()
 {	
 	var left,right,jump
 	left = keyboard_check(ord("A"))
 	right = keyboard_check(ord("D"))
 	jump = keyboard_check_pressed(vk_space)
-	
 	hspd = (right - left) * spd
 	vspd += grv
-	
 	if place_meeting(x+hspd,y,obj_colisao)
 	{
 		while !place_meeting(x+sign(hspd),y,obj_colisao)
@@ -48,7 +37,6 @@ function player()
 		}
 		hspd = 0 
 	}
-	
 		if place_meeting(x,y + vspd,obj_colisao)
 	{
 		while !place_meeting(x,y + sign(vspd),obj_colisao)
@@ -59,6 +47,4 @@ function player()
 	}
 	x += hspd 
 	y += vspd
-	
-
 }
