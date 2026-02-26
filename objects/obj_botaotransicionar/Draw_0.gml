@@ -1,6 +1,6 @@
 draw_self()
 
-if hover
+if position_meeting(mouse_x,mouse_y,id)
 {
 	image_blend = c_dkgrey
 }
