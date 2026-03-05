@@ -6,3 +6,4 @@ for(var i = 0; i < hp; i ++)
 {
 draw_sprite(spr_vidas_cheia,0,30 + (i * 60 ), 20)
 }
+
