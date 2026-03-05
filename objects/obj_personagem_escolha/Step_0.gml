@@ -38,5 +38,5 @@ if hover and mouse_check_button_pressed(mb_left)
 	global.genero = id.ID
 	var inst = instance_create_depth(0,0,-999,obj_transicionar)
 	var pause = instance_create_depth(0,0,0,obj_pauser)
-	inst.rm_target = Level_Select
+	inst.rm_target = rm_telastart
 }

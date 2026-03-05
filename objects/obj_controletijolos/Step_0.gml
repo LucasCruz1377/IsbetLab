@@ -3,7 +3,7 @@ if instance_exists(obj_pauser)
 	exit
 }
 
-if ativado and room == Level_obra
+if ativado and room == rm_fasetijolo
 {
 	timer -- 
 }
