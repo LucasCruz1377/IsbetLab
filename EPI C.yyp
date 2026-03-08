@@ -56,6 +56,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"obj_tijolo","path":"objects/obj_tijolo/obj_tijolo.yy",},},
     {"id":{"name":"obj_transicionar","path":"objects/obj_transicionar/obj_transicionar.yy",},},
+    {"id":{"name":"rm_fasefinal","path":"rooms/rm_fasefinal/rm_fasefinal.yy",},},
     {"id":{"name":"rm_fasemercado","path":"rooms/rm_fasemercado/rm_fasemercado.yy",},},
     {"id":{"name":"rm_fasetijolo","path":"rooms/rm_fasetijolo/rm_fasetijolo.yy",},},
     {"id":{"name":"rm_selecaochar","path":"rooms/rm_selecaochar/rm_selecaochar.yy",},},
@@ -89,6 +90,7 @@
     {"roomId":{"name":"rm_telastart","path":"rooms/rm_telastart/rm_telastart.yy",},},
     {"roomId":{"name":"rm_fasetijolo","path":"rooms/rm_fasetijolo/rm_fasetijolo.yy",},},
     {"roomId":{"name":"rm_fasemercado","path":"rooms/rm_fasemercado/rm_fasemercado.yy",},},
+    {"roomId":{"name":"rm_fasefinal","path":"rooms/rm_fasefinal/rm_fasefinal.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[
