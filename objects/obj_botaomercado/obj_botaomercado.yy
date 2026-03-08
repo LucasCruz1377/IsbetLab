@@ -9,8 +9,8 @@
   "name":"obj_botaomercado",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objetos",
-    "path":"folders/Objetos.yy",
+    "name":"UI_UIX",
+    "path":"folders/Objetos/UI_UIX.yy",
   },
   "parentObjectId":{
     "name":"obj_botaoobra",
