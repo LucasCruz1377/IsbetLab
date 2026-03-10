@@ -1,3 +1,8 @@
+if global.jogo_pausado
+{
+exit
+}
+
 timer-- 
 vspd += grv
 y += vspd
