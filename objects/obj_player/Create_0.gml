@@ -6,6 +6,12 @@ jumpspd = - 5
 hp_max = 3
 hp = hp_max
 invencivel = false
+canjump = true
+
+scale = 1.25
+	
+image_xscale = scale
+image_yscale = scale
 data = new masc()
 switch global.genero
 {
@@ -23,12 +29,20 @@ switch global.genero
 	sprite_index = data.idle
 function player()
 {	
+
+	
 	var left,right,jump
 	left = keyboard_check(ord("A"))
 	right = keyboard_check(ord("D"))
 	jump = keyboard_check_pressed(vk_space)
 	hspd = (right - left) * spd
 	vspd += grv
+	
+	if canjump and jump
+	{
+		vspd = jumpspd
+		canjump = false
+	}
 	if place_meeting(x+hspd,y,obj_colisao)
 	{
 		while !place_meeting(x+sign(hspd),y,obj_colisao)
@@ -43,6 +57,7 @@ function player()
 		{
 		y += sign(vspd)
 		}
+		canjump = true
 		vspd = 0 
 	}
 	x += hspd 
