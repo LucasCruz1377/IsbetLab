@@ -10,6 +10,6 @@ function atirar()
 	{
 	show_debug_message("fruta_atirada")
 	var inst = instance_create_depth(x,y,depth,projeteis[projetil])
-	timer = 100
+	timer = 3 * 60
 	}
 }

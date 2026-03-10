@@ -11,6 +11,8 @@ scale = 1.25
 image_xscale = scale
 image_yscale = scale
 data = new masc()
+gpu_set_tex_filter(false)
+
 switch global.genero
 {
 	case 0:
