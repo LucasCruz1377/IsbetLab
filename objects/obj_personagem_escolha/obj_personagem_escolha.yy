@@ -31,8 +31,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"spr_personagemmasc",
-    "path":"sprites/spr_personagemmasc/spr_personagemmasc.yy",
+    "name":"spr_personagemmasc_idle",
+    "path":"sprites/spr_personagemmasc_idle/spr_personagemmasc_idle.yy",
   },
   "spriteMaskId":null,
   "visible":true,

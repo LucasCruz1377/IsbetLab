@@ -23,12 +23,12 @@ switch ID
 {
 	case 0:
 	{
-		sprite_index = spr_personagemmasc
+		sprite_index = spr_personagemmasc_idle
 		break
 	}
 	case 1:
 	{
-		sprite_index = spr_personagemfem
+		sprite_index = spr_personagemfem_idle
 		break
 	}
 }

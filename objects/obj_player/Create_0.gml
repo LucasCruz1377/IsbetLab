@@ -7,9 +7,7 @@ hp_max = 3
 hp = hp_max
 invencivel = false
 canjump = true
-
 scale = 1.25
-	
 image_xscale = scale
 image_yscale = scale
 data = new masc()
@@ -62,4 +60,19 @@ function player()
 	}
 	x += hspd 
 	y += vspd
+	
+	if !place_meeting(x,y+1,obj_colisao)
+	{
+	sprite_index = data.jump
+	}
+	else if hspd != 0 
+	{
+	if hspd > 0{ image_xscale = 1}
+	else if hspd < 0{ image_xscale = -1}
+	sprite_index = data.run
+	}
+	else
+	{
+		sprite_index = data.idle
+	}
 }
