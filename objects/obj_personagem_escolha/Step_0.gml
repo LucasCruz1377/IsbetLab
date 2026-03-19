@@ -7,11 +7,13 @@ hover = position_meeting(mouse_x,mouse_y,id)
 
 if hover
 {
-	image_xscale = lerp(image_xscale,escala * 2,0.5)
-	image_yscale = lerp(image_yscale,escala * 2,0.5)
+	y = lerp(y, y_final,0.3)
+	image_xscale = lerp(image_xscale,escala * 1.3,0.5)
+	image_yscale = lerp(image_yscale,escala * 1.3,0.5)
 }
 else
 {
+	y = lerp(y, y_init,0.3)
 	image_xscale = lerp(image_xscale,escala,0.5)
 	image_yscale = lerp(image_yscale,escala,0.5)
 }
