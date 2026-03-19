@@ -66,6 +66,7 @@
     {"id":{"name":"rm_fasefinal","path":"rooms/rm_fasefinal/rm_fasefinal.yy",},},
     {"id":{"name":"rm_fasemercado","path":"rooms/rm_fasemercado/rm_fasemercado.yy",},},
     {"id":{"name":"rm_fasetijolo","path":"rooms/rm_fasetijolo/rm_fasetijolo.yy",},},
+    {"id":{"name":"rm_morreu","path":"rooms/rm_morreu/rm_morreu.yy",},},
     {"id":{"name":"rm_selecaochar","path":"rooms/rm_selecaochar/rm_selecaochar.yy",},},
     {"id":{"name":"rm_telastart","path":"rooms/rm_telastart/rm_telastart.yy",},},
     {"id":{"name":"global_gender","path":"scripts/global_gender/global_gender.yy",},},
@@ -83,6 +84,7 @@
     {"id":{"name":"spr_melancia","path":"sprites/spr_melancia/spr_melancia.yy",},},
     {"id":{"name":"spr_mercadobgprov","path":"sprites/spr_mercadobgprov/spr_mercadobgprov.yy",},},
     {"id":{"name":"spr_mercadobotao","path":"sprites/spr_mercadobotao/spr_mercadobotao.yy",},},
+    {"id":{"name":"spr_mortetxt","path":"sprites/spr_mortetxt/spr_mortetxt.yy",},},
     {"id":{"name":"spr_obrabgprov","path":"sprites/spr_obrabgprov/spr_obrabgprov.yy",},},
     {"id":{"name":"spr_obrabotao","path":"sprites/spr_obrabotao/spr_obrabotao.yy",},},
     {"id":{"name":"spr_oculosEPI","path":"sprites/spr_oculosEPI/spr_oculosEPI.yy",},},
@@ -108,6 +110,7 @@
     {"roomId":{"name":"rm_fasetijolo","path":"rooms/rm_fasetijolo/rm_fasetijolo.yy",},},
     {"roomId":{"name":"rm_fasemercado","path":"rooms/rm_fasemercado/rm_fasemercado.yy",},},
     {"roomId":{"name":"rm_fasefinal","path":"rooms/rm_fasefinal/rm_fasefinal.yy",},},
+    {"roomId":{"name":"rm_morreu","path":"rooms/rm_morreu/rm_morreu.yy",},},
   ],
   "templateType":"game",
   "TextureGroups":[

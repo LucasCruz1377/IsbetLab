@@ -21,5 +21,5 @@ if !instance_exists(obj_transicionar) && hp <= 0
 {
 	var inst = instance_create_depth(0,0,-999,obj_transicionar)
 	var pause =  instance_create_depth(0,0,0,obj_pauser)
-	inst.rm_target = rm_telastart
+	inst.rm_target = rm_morreu
 } 
