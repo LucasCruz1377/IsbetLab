@@ -1,5 +1,6 @@
-hspd = 0 
-vspd = 0 
+h_spd = 0 
+vspd = 0
+hspd = 0
 grv = .3
 spd = 5
 jumpspd = - 5
@@ -31,11 +32,11 @@ function player()
 {	
 	
 	
-	var left,right,jump
+	var left,right,jump,_hspd
 	left = keyboard_check(ord("A"))
 	right = keyboard_check(ord("D"))
 	jump = keyboard_check_pressed(vk_space)
-	hspd = (right - left) * spd
+	_hspd = (right - left) * spd
 	vspd += grv
 	
 	if canjump and jump
@@ -43,13 +44,13 @@ function player()
 		vspd = jumpspd
 		canjump = false
 	}
-	if place_meeting(x+hspd,y,obj_colisao)
+	if place_meeting(x+_hspd,y,obj_colisao)
 	{
-		while !place_meeting(x+sign(hspd),y,obj_colisao)
+		while !place_meeting(x+sign(_hspd),y,obj_colisao)
 		{
-		x += sign(hspd)
+		x += sign(_hspd)
 		}
-		hspd = 0 
+		_hspd = 0 
 	}
 		if place_meeting(x,y + vspd,obj_colisao)
 	{
@@ -60,6 +61,7 @@ function player()
 		canjump = true
 		vspd = 0 
 	}
+	hspd = lerp(hspd,_hspd,0.3)
 	x += hspd 
 	y += vspd
 	
@@ -69,8 +71,8 @@ function player()
 	}
 	else if hspd != 0 
 	{
-	if hspd > 0{ image_xscale = 1}
-	else if hspd < 0{ image_xscale = -1}
+	if hspd > 0.1{ image_xscale = 1}
+	else if hspd < -0.1{ image_xscale = -1}
 	sprite_index = data.run
 	}
 	else
