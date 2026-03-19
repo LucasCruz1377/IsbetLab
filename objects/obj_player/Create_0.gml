@@ -29,7 +29,7 @@ switch global.genero
 	sprite_index = data.idle
 function player()
 {	
-
+	
 	
 	var left,right,jump
 	left = keyboard_check(ord("A"))

@@ -33,7 +33,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"spr_personagemmasc_idle",
+    "path":"sprites/spr_personagemmasc_idle/spr_personagemmasc_idle.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
