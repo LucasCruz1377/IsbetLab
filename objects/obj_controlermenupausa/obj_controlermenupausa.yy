@@ -1,13 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"obj_controler",
+  "%Name":"obj_controlermenupausa",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":74,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_controler",
+  "name":"obj_controlermenupausa",
   "overriddenProperties":[],
   "parent":{
     "name":"ferramentas_objetoscontrole",
