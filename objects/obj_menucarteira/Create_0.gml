@@ -5,6 +5,7 @@ function abrir()
 		if mouse_check_button(mb_left) and position_meeting(mouse_x,mouse_y,id)
 		{
 		sprite_index = spr_carteirabrindo
+		audio_play_sound(snd_folhaspapel,1,false)
 		}
 	}
 }

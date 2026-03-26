@@ -3,7 +3,7 @@ if instance_exists(obj_pauser) or global.jogo_pausado
 	exit
 }
 
-if ativado and room == rm_fasetijolo
+if ativado and room == rm_faseobra
 {
 	timer -- 
 }
