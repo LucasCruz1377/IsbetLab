@@ -1,16 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"obj_obrajukebox",
+  "%Name":"obj_filtrogpuoff",
   "eventList":[
     {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
   ],
   "managed":true,
-  "name":"obj_obrajukebox",
+  "name":"obj_filtrogpuoff",
   "overriddenProperties":[],
   "parent":{
-    "name":"SND_FX",
-    "path":"folders/Objetos/SND_FX.yy",
+    "name":"UI_UIX",
+    "path":"folders/Objetos/UI_UIX.yy",
   },
   "parentObjectId":null,
   "persistent":false,
